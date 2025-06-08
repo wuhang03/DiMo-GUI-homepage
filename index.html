@@ -56,13 +56,13 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://wuhang03.github.io/" target="_blank">Hang Wu</a><sup>{1,3}</sup>,</span>
+                <a href="https://wuhang03.github.io/" target="_blank">Hang Wu</a><sup>1,3</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Hongkai Chen</a><sup>{3†}</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Hongkai Chen</a><sup>3†</sup>,</span>
                   <span class="author-block">
-                    <a href="https://vanoracai.github.io/" target="_blank">Yujun Cai</a><sup>{2}</sup>,</span>
+                    <a href="https://vanoracai.github.io/" target="_blank">Yujun Cai</a><sup>2</sup>,</span>
                     <span class="author-block">
-                      <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Chang Liu</a><sup>{3}</sup>,</span>
+                      <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Chang Liu</a><sup>3</sup>,</span>
                       <span class="author-block">
                         <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Qingwen Ye</a><sup>3</sup>,</span>
                         <span class="author-block">
@@ -76,7 +76,7 @@
                     <span class="author-block">University of California, Merced<sup>1</sup>, 
                       The University of Queesnland<sup>2</sup>, 
                       Vivo<sup>3</sup>,
-                      University of Electronic Science and Technology of China<sup>4</sup>
+                      <br>University of Electronic Science and Technology of China<sup>4</sup>
                       <!-- <br>Conferance name and year</span> -->
                     <span class="eql-cntrb"><small><br><sup>†</sup>Indicates Corresponding Author</small></span>
                   </div>
@@ -160,7 +160,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Grounding natural language queries in graphical user interfaces (GUIs) poses unique challenges due to the diversity of visual elements, spatial clutter, and the ambiguity of language. In this paper, we introduce DiMo-GUI, a training-free framework for GUI grounding that leverages two core strategies: modality-wise decomposition and progressive visual zoom-in. Instead of treating the GUI as a monolithic image, our method splits the input into textual elements and iconic elements, allowing the model to reason over each modality independently using general-purpose vision-language models (VLMs). When predictions are ambiguous or incorrect, DiMo-GUI dynamically focuses attention by generating candidate focal regions centered on the model’s initial predictions and incrementally zooms into subregions to refine the grounding result. This hierarchical refinement process helps disambiguate visually crowded layouts without the need for additional training or annotations. We evaluate our approach on standard GUI grounding benchmarks and demonstrate consistent improvements over baseline inference pipelines, highlighting the effectiveness of combining modality separation with region-focused reasoning. 
           </p>
         </div>
       </div>
